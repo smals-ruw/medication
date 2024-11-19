@@ -35,7 +35,7 @@
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
       "version" : "1.1.0",
       "status" : "draft",
-      "name" : "BEMLMedicationTypeVS",
+      "name" : "BEMedicationTypeVS",
       "title" : "Medication preparation Type value set",
       "description" : "Medication preparation type value set",
       "systems" : [

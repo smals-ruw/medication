@@ -49,7 +49,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.0.2"/>
+    <version value="6.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -62,7 +62,7 @@
   <dependsOn id="hl7_fhir_be_core">
     <uri value="https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core"/>
     <packageId value="hl7.fhir.be.core"/>
-    <version value="2.0.1"/>
+    <version value="2.1.2"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -574,6 +574,61 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BeExtDispenseRequestNeededCategory"/>
+      </reference>
+      <name value="BeExtDispenseRequestNeededCategory"/>
+      <description value="Dispense Request Needed - category."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BeExtDosageOverride"/>
+      </reference>
+      <name value="BeExtDosageOverride"/>
+      <description value="Dispense override."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BeExtDosageOverrideReason"/>
+      </reference>
+      <name value="BeExtDosageOverrideReason"/>
+      <description value="Dispense Request Needed - category."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BeExtExposureCategory"/>
+      </reference>
+      <name value="BeExtExposureCategory"/>
+      <description value="Exposure - category."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BeExtMedicationType"/>
+      </reference>
+      <name value="BeExtMedicationType"/>
+      <description value="MedicationType"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -588,7 +643,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BEMedicationLine"/>
+        <reference value="StructureDefinition/be-medicationline"/>
       </reference>
       <name value="BEMedicationLine"/>
       <description value="Medication Line profile - contains the overview information for a single medication item"/>
@@ -684,39 +739,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/DispenseRequestNeededCategory"/>
-      </reference>
-      <name value="DispenseRequestNeededCategory"/>
-      <description value="Dispense Request Needed - category."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/DosageOverride"/>
-      </reference>
-      <name value="DosageOverride"/>
-      <description value="Dispense override."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/DosageOverrideReason"/>
-      </reference>
-      <name value="DosageOverrideReason"/>
-      <description value="Dispense Request Needed - category."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
@@ -735,17 +757,6 @@
       </reference>
       <name value="EN"/>
       <description value="EntityName"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ExposureCategory"/>
-      </reference>
-      <name value="ExposureCategory"/>
-      <description value="Exposure - category."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "KMEHRMS"] ; # 
   fhir:title [ fhir:v "KMEHR Medication Schema v5.8"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-18T05:03:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-19T08:07:39+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Belgium"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Belgium" ] ;
@@ -534,7 +534,7 @@
        fhir:path [ fhir:v "KMEHRMS.KMEHRMessage.header.standard.cd" ] ;
        fhir:short [ fhir:v "The version of the KMEHR standard used" ] ;
        fhir:definition [ fhir:v "The version of the KMEHR standard used" ] ;
-       fhir:comment [ fhir:v "* S-VALUE = CD-STANDARD \n* value = always '20161201' \" refering the eHealth XSD version" ] ;
+       fhir:comment [ fhir:v "* S-VALUE = CD-STANDARD \n* value = always '20161201' \" referring the eHealth XSD version" ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -15989,7 +15989,7 @@
        fhir:path [ fhir:v "KMEHRMS.KMEHRMessage.header.standard.cd" ] ;
        fhir:short [ fhir:v "The version of the KMEHR standard used" ] ;
        fhir:definition [ fhir:v "The version of the KMEHR standard used" ] ;
-       fhir:comment [ fhir:v "* S-VALUE = CD-STANDARD \n* value = always '20161201' \" refering the eHealth XSD version" ] ;
+       fhir:comment [ fhir:v "* S-VALUE = CD-STANDARD \n* value = always '20161201' \" referring the eHealth XSD version" ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:type ( [

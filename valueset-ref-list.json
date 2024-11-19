@@ -36,7 +36,7 @@
       "uses" : {
       },
       "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model",
-      "StructureDefinition-ExposureCategory.html" : "ExposureCategory"
+      "StructureDefinition-BeExtExposureCategory.html" : "BeExtExposureCategory"
     },
     {
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-line-origin-type-vs",
@@ -53,7 +53,7 @@
       "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
       "version" : "1.1.0",
       "status" : "draft",
-      "name" : "BEMLMedicationTypeVS",
+      "name" : "BEMedicationTypeVS",
       "title" : "Medication preparation Type value set",
       "description" : "Medication preparation type value set",
       "systems" : [
@@ -61,6 +61,7 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-BeExtMedicationType.html" : "BeExtMedicationType",
       "StructureDefinition-be-model-medicationline.html" : "Medication Line - logical model"
     }
   ]

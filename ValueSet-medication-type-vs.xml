@@ -7,11 +7,11 @@
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs"/>
   <version value="1.1.0"/>
-  <name value="BEMLMedicationTypeVS"/>
+  <name value="BEMedicationTypeVS"/>
   <title value="Medication preparation Type value set"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2024-11-18T05:03:15+00:00"/>
+  <date value="2024-11-19T08:07:39+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <name value="HL7 Belgium"/>

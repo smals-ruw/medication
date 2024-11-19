@@ -324,7 +324,7 @@
   <name value="KMEHRMS"/>
   <title value="KMEHR Medication Schema v5.8"/>
   <status value="draft"/>
-  <date value="2024-11-18T05:03:15+00:00"/>
+  <date value="2024-11-19T08:07:39+00:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <name value="HL7 Belgium"/>
@@ -797,7 +797,7 @@
       <path value="KMEHRMS.KMEHRMessage.header.standard.cd"/>
       <short value="The version of the KMEHR standard used"/>
       <definition value="The version of the KMEHR standard used"/>
-      <comment value="* S-VALUE = CD-STANDARD &#xA;* value = always '20161201' &quot; refering the eHealth XSD version"/>
+      <comment value="* S-VALUE = CD-STANDARD &#xA;* value = always '20161201' &quot; referring the eHealth XSD version"/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -15009,7 +15009,7 @@
       <path value="KMEHRMS.KMEHRMessage.header.standard.cd"/>
       <short value="The version of the KMEHR standard used"/>
       <definition value="The version of the KMEHR standard used"/>
-      <comment value="* S-VALUE = CD-STANDARD &#xA;* value = always '20161201' &quot; refering the eHealth XSD version"/>
+      <comment value="* S-VALUE = CD-STANDARD &#xA;* value = always '20161201' &quot; referring the eHealth XSD version"/>
       <min value="1"/>
       <max value="1"/>
       <type>

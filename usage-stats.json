@@ -5,45 +5,52 @@
   "jurisdiction": "BE",
   "extensions": [
     {
-      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory",
-      "title": "DispenseRequestNeededCategory",
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDispenseRequestNeededCategory",
+      "title": "BeExtDispenseRequestNeededCategory",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride",
-      "title": "DosageOverride",
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDosageOverride",
+      "title": "BeExtDosageOverride",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason",
-      "title": "DosageOverrideReason",
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDosageOverrideReason",
+      "title": "BeExtDosageOverrideReason",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory",
-      "title": "ExposureCategory",
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtExposureCategory",
+      "title": "BeExtExposureCategory",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtMedicationType",
+      "title": "BeExtMedicationType",
       "types": [
         "CodeableConcept"
       ]
     }
   ],
   "profiles": {
-    "MedicationStatement": [
-      {
-        "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BEMedicationLine",
-        "title": "BEMedicationLine"
-      }
-    ],
     "MedicationDispense": [
       {
         "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationdispense",
         "title": "BeMedicationDispense"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationline",
+        "title": "BEMedicationLine"
       }
     ]
   },
@@ -115,17 +122,20 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory": [
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDispenseRequestNeededCategory": [
       "MedicationStatement"
     ],
-    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride": [
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDosageOverride": [
       "MedicationStatement.dosage"
     ],
-    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason": [
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDosageOverrideReason": [
       "MedicationStatement.dosage"
     ],
-    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory": [
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtExposureCategory": [
       "MedicationStatement"
+    ],
+    "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtMedicationType": [
+      "MedicationStatement.medication[x]"
     ]
   }
 }
