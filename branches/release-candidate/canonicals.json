@@ -11,7 +11,7 @@
     "type" : "CodeSystem",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/CodeSystem/medication-type",
     "version" : "1.1.0",
-    "name" : "BEMLMedicationType"
+    "name" : "BEMedicationType"
   },
   {
     "id" : "hl7.fhir.be.medication",
@@ -70,18 +70,46 @@
     "name" : "BELMMedProduct"
   },
   {
-    "id" : "BEMedicationLine",
-    "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BEMedicationLine",
-    "version" : "1.1.0",
-    "name" : "BEMedicationLine"
-  },
-  {
     "id" : "BL",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BL",
     "version" : "1.1.0",
     "name" : "BL"
+  },
+  {
+    "id" : "BeExtDispenseRequestNeededCategory",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDispenseRequestNeededCategory",
+    "version" : "1.1.0",
+    "name" : "BeExtDispenseRequestNeededCategory"
+  },
+  {
+    "id" : "BeExtDosageOverride",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDosageOverride",
+    "version" : "1.1.0",
+    "name" : "BeExtDosageOverride"
+  },
+  {
+    "id" : "BeExtDosageOverrideReason",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtDosageOverrideReason",
+    "version" : "1.1.0",
+    "name" : "BeExtDosageOverrideReason"
+  },
+  {
+    "id" : "BeExtExposureCategory",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtExposureCategory",
+    "version" : "1.1.0",
+    "name" : "BeExtExposureCategory"
+  },
+  {
+    "id" : "BeExtMedicationType",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/BeExtMedicationType",
+    "version" : "1.1.0",
+    "name" : "BeExtMedicationType"
   },
   {
     "id" : "CD",
@@ -105,39 +133,11 @@
     "name" : "DT"
   },
   {
-    "id" : "DispenseRequestNeededCategory",
-    "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DispenseRequestNeededCategory",
-    "version" : "1.1.0",
-    "name" : "DispenseRequestNeededCategory"
-  },
-  {
-    "id" : "DosageOverride",
-    "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverride",
-    "version" : "1.1.0",
-    "name" : "DosageOverride"
-  },
-  {
-    "id" : "DosageOverrideReason",
-    "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/DosageOverrideReason",
-    "version" : "1.1.0",
-    "name" : "DosageOverrideReason"
-  },
-  {
     "id" : "EN",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/EN",
     "version" : "1.1.0",
     "name" : "EN"
-  },
-  {
-    "id" : "ExposureCategory",
-    "type" : "StructureDefinition",
-    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/ExposureCategory",
-    "version" : "1.1.0",
-    "name" : "ExposureCategory"
   },
   {
     "id" : "II",
@@ -210,6 +210,13 @@
     "name" : "BeMedicationDispense"
   },
   {
+    "id" : "be-medicationline",
+    "type" : "StructureDefinition",
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-medicationline",
+    "version" : "1.1.0",
+    "name" : "BEMedicationLine"
+  },
+  {
     "id" : "be-model-medicationdispense",
     "type" : "StructureDefinition",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/be-model-medicationdispense",
@@ -249,6 +256,6 @@
     "type" : "ValueSet",
     "url" : "https://www.ehealth.fgov.be/standards/fhir/medication/ValueSet/medication-type-vs",
     "version" : "1.1.0",
-    "name" : "BEMLMedicationTypeVS"
+    "name" : "BEMedicationTypeVS"
   }
 ]

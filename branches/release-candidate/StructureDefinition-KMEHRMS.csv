@@ -51,7 +51,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "KMEHRMS.KMEHRMessage.header.standard.cd","KMEHRMS.KMEHRMessage.header.standard.cd","","","",1,1,"","","","Element {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/medication/StructureDefinition/CD]]} {[]}
 ","The version of the KMEHR standard used","The version of the KMEHR standard used","* S-VALUE = CD-STANDARD 
-* value = always '20161201' "" refering the eHealth XSD version","","","","","","","","",,,,,"",,,,"KMEHRMS.KMEHRMessage.header.standard.cd",1,1,"",""
+* value = always '20161201' "" referring the eHealth XSD version","","","","","","","","",,,,,"",,,,"KMEHRMS.KMEHRMessage.header.standard.cd",1,1,"",""
 "KMEHRMS.KMEHRMessage.header.date","KMEHRMS.KMEHRMessage.header.date","","","",0,1,"","","","date {[]} {[]}
 ","Date","Date","","","","","","","","","",,,,,"",,,,"KMEHRMS.KMEHRMessage.header.date",0,1,"",""
 "KMEHRMS.KMEHRMessage.header.time","KMEHRMS.KMEHRMessage.header.time","","","",0,1,"","","","time {[]} {[]}

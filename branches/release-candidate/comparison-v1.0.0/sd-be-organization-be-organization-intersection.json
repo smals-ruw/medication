@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "40a2abd1-9d7d-4c45-9b4c-a1ac86c00a45-12",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/40a2abd1-9d7d-4c45-9b4c-a1ac86c00a45-12",
+  "id" : "8eacf441-b023-44c1-84a4-b3c0e57b949b-12",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8eacf441-b023-44c1-84a4-b3c0e57b949b-12",
   "name" : "IntersectionBeOrganizationAndBeOrganization",
   "title" : "Intersection of Organisation core BE profile And BeOrganization",
   "status" : "active",
-  "date" : "2024-06-18T08:47:20+00:00",
+  "date" : "2024-11-19T08:08:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
